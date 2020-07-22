@@ -38,7 +38,13 @@ def detector():
 	print("[INFO] loading model...")
 	net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 	print("[INFO] starting video stream...")
-	vs = cv2.VideoCapture(args["dir"])
+	file = args['dir']
+	filetype = file.rsplit(".")[-1]
+	if filetype in ['jpg','png']:
+		vs = cv2.imread(file)
+	elif filetype == "mp4":
+		vs = cv2.VideoCapture(file)
+	
 	time.sleep(2.0)
 	fps = FPS().start()
 
@@ -63,9 +69,10 @@ def detector():
 
 		pid = 0
 		personId.clear()
-
-		(grabbed, frame) = vs.read()
-
+		if filetype in ['jpg','png']:
+			frame = vs
+		elif filetype == "mp4":
+			(grabbed, frame) = vs.read()
 		frame = imutils.resize(frame, width=900)
 
 		(h, w) = frame.shape[:2]
