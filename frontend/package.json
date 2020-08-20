@@ -30,7 +30,9 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
     "minify-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true"
+    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -56,11 +58,12 @@
     "react-google-maps": "9.4.5",
     "react-polygon": "^0.2.0",
     "react-router-dom": "5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "3.4.3",
     "react-sound": "^1.2.0",
     "react-toastify": "^6.0.5",
     "react-toastr": "^3.0.0",
-    "reactstrap": "8.4.1"
+    "reactstrap": "8.4.1",
+    "snyk": "^1.380.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
@@ -70,5 +73,6 @@
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "typescript": "3.7.5"
-  }
+  },
+  "snyk": true
 }
