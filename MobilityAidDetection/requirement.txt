@@ -1,5 +1,5 @@
 tensorflow==1.15.2
 pandas
 numpy
-pillow
+pillow==7.1.0
 matplotlib
