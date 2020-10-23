@@ -47,9 +47,9 @@
     "@fortawesome/fontawesome-free": "5.14.0",
     "chart.js": "2.9.4",
     "classnames": "2.2.6",
-    "moment": "2.27.0",
+    "moment": "2.29.0",
     "node-sass": "4.14.1",
-    "nouislider": "14.6.0",
+    "nouislider": "14.6.2",
     "react": "16.13.1",
     "react-chartjs-2": "2.9.0",
     "react-copy-to-clipboard": "5.0.2",
@@ -63,7 +63,7 @@
     "react-toastify": "^6.0.8",
     "react-toastr": "^3.0.0",
     "reactstrap": "8.5.1",
-    "snyk": "^1.380.0"
+    "snyk": "^1.405.1"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
