@@ -60,7 +60,7 @@
     "react-router-dom": "5.1.2",
     "react-scripts": "4.0.0",
     "react-sound": "^1.2.0",
-    "react-toastify": "^6.0.8",
+    "react-toastify": "^6.0.9",
     "react-toastr": "^3.0.0",
     "reactstrap": "8.6.0",
     "snyk": "^1.405.1"
