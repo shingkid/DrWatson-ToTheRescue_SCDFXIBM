@@ -62,7 +62,7 @@
     "react-sound": "^1.2.0",
     "react-toastify": "^6.1.0",
     "react-toastr": "^3.0.0",
-    "reactstrap": "8.7.1",
+    "reactstrap": "8.8.0",
     "snyk": "^1.431.2"
   },
   "devDependencies": {
