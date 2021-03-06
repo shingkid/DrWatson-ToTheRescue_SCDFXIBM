@@ -63,7 +63,7 @@
     "react-toastify": "^6.2.0",
     "react-toastr": "^3.0.0",
     "reactstrap": "8.9.0",
-    "snyk": "^1.438.0"
+    "snyk": "^1.452.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
