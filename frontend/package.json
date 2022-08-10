@@ -48,7 +48,7 @@
     "chart.js": "2.9.4",
     "classnames": "2.3.0",
     "moment": "2.29.4",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.1",
     "nouislider": "14.6.4",
     "react": "16.14.0",
     "react-chartjs-2": "2.11.1",
@@ -58,12 +58,12 @@
     "react-google-maps": "9.4.5",
     "react-polygon": "^0.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.0",
     "react-sound": "^1.2.0",
     "react-toastify": "^6.2.0",
     "react-toastr": "^3.0.0",
     "reactstrap": "8.9.0",
-    "snyk": "^1.532.0"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
