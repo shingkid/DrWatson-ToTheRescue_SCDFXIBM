@@ -2771,6 +2771,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@snyk/protect@^1.1081.0":
+  version "1.1081.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1081.0.tgz#df5f4ae499019bff30045880db8cfa8ec0348bcf"
+  integrity sha512-V+4DJPLorQph9j78PB3qpxOEREzXHJN/txg2Cxn2EGw+7IWOPPeLgUb4jO+tjVVmqMYmrvohMDQKErcjIxVqVg==
+
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz#ee34985952ca21558ab0d952f00298ad2190c053"
@@ -12071,11 +12076,6 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
-
-snyk@^1.1064.0:
-  version "1.1064.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1064.0.tgz#e73b3a1aff585f6266f73ddd498c5cfd5e67aff0"
-  integrity sha512-f9mNO5rUc5nVVZ1sN+do2i5/RGHKlOQoNk5HiEO9WkPEn2pFllJv2XAw5Bn7sFj1eLXNFVUOUlo6SVqGnX7lXw==
 
 sockjs@^0.3.24:
   version "0.3.24"
