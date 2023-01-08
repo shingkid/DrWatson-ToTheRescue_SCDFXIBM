@@ -30,9 +30,7 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
     "minify-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true",
-    "snyk-protect": "snyk protect",
-    "prepare": "yarn run @snyk/protect"
+    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,7 +43,6 @@
   ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
-    "@snyk/protect": "^1.1081.0",
     "chart.js": "2.9.4",
     "classnames": "2.3.0",
     "moment": "2.29.4",
