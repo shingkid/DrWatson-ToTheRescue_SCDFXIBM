@@ -60,7 +60,7 @@
     "react-sound": "^1.2.0",
     "react-toastify": "^6.2.0",
     "react-toastr": "^3.0.0",
-    "reactstrap": "8.9.0"
+    "reactstrap": "8.10.1"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
