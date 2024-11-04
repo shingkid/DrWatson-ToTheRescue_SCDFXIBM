@@ -11,6 +11,6 @@ pandas==1.0.4
 python-dateutil==2.8.1
 pytz==2020.1
 six==1.15.0
-Werkzeug==3.0.1
+Werkzeug==3.0.6
 pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
 fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
