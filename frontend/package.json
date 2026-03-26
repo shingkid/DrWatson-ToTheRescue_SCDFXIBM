@@ -46,7 +46,7 @@
     "chart.js": "2.9.4",
     "classnames": "2.3.2",
     "moment": "2.29.4",
-    "node-sass": "8.0.0",
+    "node-sass": "9.0.0",
     "nouislider": "14.7.0",
     "react": "16.14.0",
     "react-chartjs-2": "2.11.2",
@@ -58,9 +58,9 @@
     "react-router-dom": "6.0.0",
     "react-scripts": "5.0.1",
     "react-sound": "^1.2.0",
-    "react-toastify": "^6.2.0",
+    "react-toastify": "^7.0.0",
     "react-toastr": "^3.0.0",
-    "reactstrap": "8.10.1"
+    "reactstrap": "9.0.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
